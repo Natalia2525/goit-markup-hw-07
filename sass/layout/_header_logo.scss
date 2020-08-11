@@ -1,0 +1,26 @@
+/* Логотип */ 
+
+.header {
+    line-height: normal;
+
+        .container{
+            display: flex;
+            align-items: center;
+        }
+}
+
+.logo-main {
+    margin-right: 85px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+
+    color: $logo-color;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+} 
+
+.logo-web {
+ color: $accent-color;
+}
